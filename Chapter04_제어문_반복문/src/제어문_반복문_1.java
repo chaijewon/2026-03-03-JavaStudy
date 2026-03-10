@@ -20,14 +20,14 @@ public class 제어문_반복문_1 {
         {
         	System.out.printf("%d * %d = %d\n",dan,i,dan*i);
         }
-        
+        // i는 사라지다 
         System.out.println();// 다음줄에 출력 
         
         for(int i=9;i>=1;i--)
         {
         	System.out.printf("%d * %d = %d\n",dan,i,dan*i);
         }
-        
+        // i는 사라진다
         System.out.println();
         String str="Hello Java";
         //          0123456789 ==> 문자열은 0번부터 (인덱스)
