@@ -29,7 +29,7 @@ public class 데이터정렬_선택정렬_1 {
         }
         
         /// 정렬
-        System.out.println("정렬 후:");
+        System.out.println("\n정렬 후:");
         for(int i=0;i<alpha.length-1;i++)
         {
         	for(int j=i+1;j<alpha.length;j++)
@@ -49,6 +49,7 @@ public class 데이터정렬_선택정렬_1 {
         {
         	System.out.print(c+" ");
         }
+        // char => int와 동일 
 	}
 
 }
