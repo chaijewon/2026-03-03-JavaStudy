@@ -29,6 +29,7 @@ public class 영화데이터 {
     		String[] movie=sb.toString().split("\n");
     		for(i=0;i<movie.length;i++)
     		{
+    			
     			String m=movie[i];
     			StringTokenizer st=new StringTokenizer(m,"|");
     			rank[i]=st.nextToken();
